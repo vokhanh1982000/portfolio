@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import avatar from '/public/images/avatar.jpg'
 
 const HeroSection = () => {
   return (
@@ -18,7 +19,7 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="w-[300px] h-[300px] rounded-full overflow-hidden flex items-center">
             <Image
-              src={"/images/avatar.jpg"}
+              src={avatar}
               alt="avatar"
               className="object-contain"
               width={300}
