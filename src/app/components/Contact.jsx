@@ -1,6 +1,7 @@
 import { FacebookFilled, MailFilled, PhoneFilled } from "@ant-design/icons";
 import Image from "next/image";
 import React from "react";
+import githubIcon from "/public/images/github.png"
 
 const contacts = [
   {
@@ -20,7 +21,7 @@ const contacts = [
   },
   {
     title: "github",
-    icons: <Image src={"/images/github.png"} alt="" width={20} height={20}/>,
+    icons: <Image src={githubIcon} alt="" width={20} height={20}/>,
     value: "https://github.com/vokhanh1982000",
   }
 ];
@@ -35,7 +36,7 @@ const Contact = () => {
         {contacts.map((contact, index) => (
           <div key={index} className="flex gap-3 items-center">
             {contact.icons}
-            <p>{contact.value}</p>
+            <p className="text-[14px] lg:text-[16px]">{contact.value}</p>
           </div>
         ))}
       </div>
