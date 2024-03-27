@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   const handleDownloadPDF = () => {
-    // const pdfFilePath = "resume.pdf";
-    // saveAs(pdfFilePath, "Vo_Minh_Khanh_resume.pdf");
+    const pdfFilePath = "resume.pdf";
+    saveAs(pdfFilePath, "Vo_Minh_Khanh_resume.pdf");
   };
 
   const scrollToSkills = () => {
