@@ -59,13 +59,13 @@ const HeroSection = () => {
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="w-[300px] h-[300px] rounded-full overflow-hidden flex items-center">
-            {/* <Image
-              src={avatar}
+            <Image
+              src={"/images/avatar.jpg"}
               alt="avatar"
               className="object-contain"
               width={300}
               height={300}
-            /> */}
+            />
           </div>
         </div>
       </div>
