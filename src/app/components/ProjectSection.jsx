@@ -1,50 +1,50 @@
 import React from "react";
 import CardProject from "./CardProject";
-import ihealth from "/public/images/ihealth.png";
-import spa from "/public/images/spa.png";
-import goodlife from "/public/images/goodLife.png";
-import baychat from "/public/images/baychat.png";
-import cresenii from "/public/images/baychat.png";
-import analus from "/public/images/analus.png"
+// import ihealth from "/public/images/ihealth.png";
+// import spa from "/public/images/spa.png";
+// import goodlife from "/public/images/goodLife.png";
+// import baychat from "/public/images/baychat.png";
+// import cresenii from "/public/images/baychat.png";
+// import analus from "/public/images/analus.png"
 
 const projects = [
   {
-    image: ihealth,
+    image: "ihealth",
     name: "IHealth",
     desc: "Website for health",
     position: "Fullstack developer",
     tech: ["ReactJs", "NestJs", "WebSocket", "React-query"],
   },
   {
-    image: spa,
+    image: "spa",
     name: "Spa",
     desc: "Website for spa",
     position: "Fullstack developer",
     tech: ["ReactJs", "NestJs", "React-query"]
   },
   {
-    image: goodlife,
+    image: "goodlife",
     name: "GoodLife",
     desc: "Website to advertise flyers",
     position: "Fullstack developer",
     tech: ["NextJs", "ReactJs", "NestJs", "Redux"]
   },
   {
-    image: baychat,
+    image: "baychat",
     name: "BayChat",
     desc: "Website linked to third parties for chatting, manager, ...",
     position: "FrontEnd developer",
     tech: ["ReactJs", "NestJs", "WebSocket", "Context"]
   },
   {
-    image: cresenii,
+    image: "cresenii",
     name: "Cresenii",
     desc: "Website is same as Trello",
     position: "FrontEnd developer",
     tech: ["ReactJs", "NestJs", "Redux"]
   },
   {
-    image: analus,
+    image: "analus",
     name: "Analus",
     desc: "Website for learning",
     position: "Fullstack developer",

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import avatar from "/public/images/avatar.jpg";
+// import avatar from "/public/images/avatar.jpg";
 import { saveAs } from "file-saver";
 import { TypeAnimation } from "react-type-animation";
 

@@ -1,7 +1,7 @@
 import { FacebookFilled, MailFilled, PhoneFilled } from "@ant-design/icons";
 import Image from "next/image";
 import React from "react";
-import githubIcon from "/public/images/github.png"
+// import githubIcon from "/public/images/github.png"
 
 const contacts = [
   {
