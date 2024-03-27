@@ -44,7 +44,7 @@ const projects = [
     tech: ["ReactJs", "NestJs", "Redux"]
   },
   {
-    image: "analus",
+    image: analus,
     name: "Analus",
     desc: "Website for learning",
     position: "Fullstack developer",
