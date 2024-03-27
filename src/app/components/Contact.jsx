@@ -21,7 +21,10 @@ const contacts = [
   },
   {
     title: "github",
-    icons: <Image src={githubIcon} alt="" width={20} height={20}/>,
+    icons: 
+    // <Image src={githubIcon} alt="" width={20} height={20}/>
+    ""
+    ,
     value: "https://github.com/vokhanh1982000",
   }
 ];
