@@ -55,7 +55,7 @@ const AboutSection = () => {
             experience with 2,5 years FrontEnd and 1,5 years BackEnd. I have
             experience working with JavaScript, TypeScript, ReactJs, NextJs,
             NestJs, NodeJs, HTML5, CSS3, SCSS, TailwindCSS, RESTful api, GIT,
-            ... I I enjoy playing soccer, listening to music, and I aspire to
+            ... I enjoy playing soccer, listening to music, and I aspire to
             work in a fun and friendly environment. I am seeking a place where I
             can contribute fully and work long-term.
           </p>

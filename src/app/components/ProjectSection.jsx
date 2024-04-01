@@ -4,7 +4,7 @@ import ihealth from "/public/images/ihealth.png";
 import spa from "/public/images/spa.png";
 import goodlife from "/public/images/goodLife.png";
 import baychat from "/public/images/baychat.png";
-import cresenii from "/public/images/baychat.png";
+import cresenii from "/public/images/cresenii.png";
 import analus from "/public/images/analus.png"
 
 const projects = [

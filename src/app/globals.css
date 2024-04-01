@@ -31,3 +31,38 @@ body {
     text-wrap: balance;
   }
 }
+
+.link-nav {
+  position: relative;
+}
+
+.link-nav::after {
+  width: 0px;
+  height: 4px;
+  background-color: #ffffff;
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  transition: width 1s;
+}
+
+.link-nav:hover:after {
+  width: 100%;
+}
+
+.avatar-animation {
+  /* position: absolute; */
+  animation-name: animationAvatar;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes animationAvatar {
+  0% {
+    margin-right: -200px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
