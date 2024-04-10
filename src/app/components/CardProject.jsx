@@ -5,7 +5,7 @@ const CardProject = ({ project }) => {
   return (
     <div className="mt-7 w-[100%] md:w-[46%] lg:w-[30%] h-auto text-white flex flex-col rounded-[10px] bg-gradient-to-b from-blue-500 to-blue-900 shadow-md py-[18px] px-[24px]">
       <div
-        className="mb-6 rounded-[5px] h-52 w-full hover:h-100"
+        className="mb-6 rounded-[5px] h-52 w-full hover:h-100 transition-transform duration-300 ease-in-out transform hover:scale-110"
         style={{ background: `url(${project.image.src})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}
       />
       <h3 className="text-[25px] font-bold">{project.name}</h3>

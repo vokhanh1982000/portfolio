@@ -19,7 +19,7 @@ const Experience = () => {
               potentially evolved into a full-stack developer.
             </div>
             <div className="p-3 text-red-400 text-sm font-semibold">
-              04/2022 - 02/2024
+              04/2022 - 03/2024
             </div>
             <div className="ml-3 p-2 rounded bg-blue-400 text-white text-sm font-semibold w-fit">
               TCOM
