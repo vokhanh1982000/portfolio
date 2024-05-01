@@ -16,7 +16,7 @@ const TAB_DATA = [
         <li>React query, Redux</li>
         <li>RESTful api, mysql, mongoDB</li>
         <li>Socket</li>
-        <li>GIT</li>
+        <li>GIT, Docker, Microservice</li>
       </ul>
     ),
   },
