@@ -3,9 +3,15 @@ import React from "react";
 const Experience = () => {
   return (
     <div id="experience" className="flex flex-col gap-12 justify-center">
-      <h2 className="text-center text-4xl font-bold text-white mt-10 mb-10">
-        Experience
-      </h2>
+      <div className="title-part">
+        <hr />
+        <div className="title-name">
+          <h2 className="text-center text-4xl font-bold text-white bg-[#121212] px-10 title-animation">
+            Experience
+          </h2>
+        </div>
+      </div>
+
       <div className="">
         <div className="flex justify-center h-auto">
           <div className="w-2/5 lg:w-1/3"></div>
