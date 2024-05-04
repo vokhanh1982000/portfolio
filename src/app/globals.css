@@ -107,3 +107,42 @@ body {
     width: fit-content;
   }
 }
+
+.snow {
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  animation: snowFall 10s linear;
+  z-index: 2;
+  width: 5px;
+  height: 5px;
+}
+
+@keyframes snowFall {
+  0% {
+    opacity: 0;
+    top: 0;
+    transform: translateX(-5px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  30% {
+    opacity: 1;
+    transform: translateX(5px);
+  }
+  40% {
+    transform: translateX(-5px);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 100vh;
+  }
+}
