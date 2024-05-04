@@ -75,10 +75,10 @@ body {
 
 .title-animation {
   /* position: absolute; */
-  animation-name: animationTitle;
+  /* animation-name: animationTitle;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-out;
+  animation-timing-function: ease-out; */
 }
 
 @keyframes animationAvatar {
