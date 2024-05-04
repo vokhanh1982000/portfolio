@@ -18,7 +18,7 @@ const Snow = () => {
         snow.style.width = snowSize + 'px'
         snow.style.height = snowSize + 'px'
 
-        snow.style.left = Math.random() * 100 + '%'
+        snow.style.left = Math.random() * 100 - minSize + '%'
 
         container.appendChild(snow)
 
