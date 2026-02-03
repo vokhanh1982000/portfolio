@@ -22,21 +22,21 @@ const Experience = () => {
           </div>
           <div className="w-2/5 lg:w-1/3 bg-white shadow-lg rounded-tl-[10px] rounded-br-[10px] pb-3">
             <div className="p-3 font-semibold rounded-b-lg rounded-s-lg">
-              Freelancer
+              Middle
             </div>
             <div className="p-3 text-sm italic">
-              I participated in a freelance project working on a dental website.
+              I work at a production company, where I learned a lot about the operational process and how e-commerce works.
             </div>
             <div className="p-3 text-red-400 text-sm font-semibold">
-              03/2024 - Present
+              04/2024 - Present
             </div>
-            {/* <div className="ml-3 p-2 rounded bg-blue-400 text-white text-sm font-semibold w-fit">
-              EBIZWORLD
-            </div> */}
+            <div className="ml-3 p-2 rounded bg-blue-400 text-white text-sm font-semibold w-fit">
+              Snaptec
+            </div>
           </div>
         </div>
         <div className="flex justify-center h-auto">
-          <div className="w-2/5 lg:w-1/3 bg-white shadow-lg rounded-tl-[10px] rounded-br-[10px] pb-3">
+          <div className="w-2/5 lg:w-1/3 bg-white shadow-lg rounded-tr-[10px] rounded-bl-[10px] pb-3">
             <div className="p-3 font-semibold rounded-b-lg rounded-s-lg">
               Middle-
             </div>

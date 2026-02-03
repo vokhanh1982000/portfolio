@@ -10,13 +10,15 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>ReactJs, NextJs, NestJs, NodeJs, JavaSript, TypeScript</li>
-        <li>HTML5, CSS3, SCSS, TailwindCSS</li>
-        <li>Antd, MUI</li>
-        <li>React query, Redux</li>
-        <li>RESTful api, mysql, mongoDB</li>
-        <li>Socket</li>
-        <li>GIT, Docker, Microservice</li>
+        <li>Frameworks: React.js, Next.js, Shopify Liquid</li>
+        <li>Languages: JavaScript, TypeScript</li>
+        <li>Styling: HTML5, CSS3, Tailwind, SCSS/SASS</li>
+        <li>State Management: Redux, React Query, Zustand</li>
+        <li>UI library: Antd, MUI, bootstrap</li>
+        <li>APIs: GraphQL, RESTful, Apollo Client</li>
+        <li>Backend: NestJS, NodeJS</li>
+        <li>Databases: MongoDB, MySQL, Redis</li>
+        <li>Tools: Git, Github, Sourcetree, Jira</li>
       </ul>
     ),
   },
@@ -48,16 +50,10 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src={aboutMeImage} alt="" width={500} height={500} />
+        <Image src={aboutMeImage} alt="" width={500} height={500} className="rounded-xl" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <p className="text-base md:text-lg">
-            My name is Khanh, I&apos;m web developer and i have 2,5 years of
-            experience with 2,5 years FrontEnd and 1,5 years BackEnd. I have
-            experience working with JavaScript, TypeScript, ReactJs, NextJs,
-            NestJs, NodeJs, HTML5, CSS3, SCSS, TailwindCSS, RESTful api, GIT,
-            ... I enjoy playing soccer, listening to music, and I aspire to
-            work in a fun and friendly environment. I am seeking a place where I
-            can contribute fully and work long-term.
+            Experienced Front-end Developer with 4+ years of expertise in building responsive web applications and SaaS products. Proven track record in React.js, Next.js, and Shopify development. Strong background in both front-end architecture and full-stack development, with 1.5 years of back-end experience. Passionate about creating user-friendly interfaces and optimizing application performance.
           </p>
           <div className="flex flex-row justify-start mt-8" id="skills">
             {TAB_DATA.map((t, index) => (
@@ -72,7 +68,7 @@ const AboutSection = () => {
               </TabButton>
             ))}
           </div>
-          <div className="mt-8">
+          <div className="mt-8 h-[200px]">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
