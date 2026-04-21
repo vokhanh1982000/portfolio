@@ -59,7 +59,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="relative w-[300px] h-[300px] rounded-full overflow-hidden flex items-center avatar-animation">
+          <div className="relative w-[300px] h-[300px] rounded-full overflow-hidden flex items-center animate-avatar">
             <Image
               src={avatar}
               alt="avatar"

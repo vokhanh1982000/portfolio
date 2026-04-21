@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <>
       <Snow />
-      <main className="relative flex min-h-screen flex-col bg-[#121212]">
+      <main className="relative flex min-h-screen flex-col bg-slate-950 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-[#121212] to-black">
         <Navbar />
-        <div className="container mt-24 mx-auto px-6 lg:px-12: py-4">
+        <div className="container mt-24 mx-auto px-4 lg:px-12 py-4">
           <HeroSection />
           <AboutSection />
           <Experience />
